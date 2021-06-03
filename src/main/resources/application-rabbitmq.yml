@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    host: localhost
+    password: guest
+    port: 5672
+    username: guest
+    exchange: event.exchange
+    queue: produce.queue
+    routingkey: event.routingkey
+    createEventQueue: createEventQueue
+    updateEventQueue: updateEventQueue
+    deleteEventQueue: deleteEventQueue

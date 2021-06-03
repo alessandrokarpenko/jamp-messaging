@@ -1,0 +1,6 @@
+springjms:
+  producerQueue: producerQueue
+  consumerQueueCreate: consumerQueueCreate
+  consumerQueueUpdate: consumerQueueUpdate
+  consumerQueueDelete: consumerQueueDelete
+
